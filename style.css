@@ -163,3 +163,15 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+/* Media queries */
+/*Media só funciona pq no html tem o meta viewport*/
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bgurl: url(./assets/bg-desktop-light.jpg);
+  }
+}
