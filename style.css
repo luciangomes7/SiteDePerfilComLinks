@@ -44,7 +44,8 @@ body * {
 /*display, cada elemento tem um padrão de display*/
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   /*height: 712px; altura nem sempre precisa*/
   margin: 56px auto 0px; /* ordem= topo,direita,baixo, esqueda ou top,laterais, baixo ou topo e baixo, laterais*/
 
